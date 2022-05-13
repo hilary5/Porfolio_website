@@ -87,7 +87,7 @@ form h2 {
     border-bottom: 1px solid rgba(45, 62, 100, 0.918);
     outline: 0;
     margin: 1rem auto;
-    transition: 0.3;
+    transition: 0.3s;
     white-space: nowrap;
 }
 
