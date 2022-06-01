@@ -1,26 +1,44 @@
-<form>
-  <div class="form__body">
-    <h1 class="form__heading">Sign in</h1>
-    <input
-      class="input"
-      type="email"
-      placeholder="hilary@gmail.com"
-      autofocus
-      maxlength="25"
-    />
-    <input
-      class="input"
-      type="password"
-      name=""
-      id=""
-      placeholder="Password"
-      minlength="8"
-      maxlength="15"
-    />
-    <div class="form__button-section">
-      <button class="btn btn--primary" type="reset">Clear</button>
-      <button class="btn btn--primary btn__login" type="submit">Login</button>
-    </div>
-    <p class="form_sign-up">Not signed in: <a href="">Register/sign up</a></p>
-  </div>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <form>
+      <div class="form__body">
+        <h1 class="form__heading">Sign in</h1>
+        <input
+          class="input"
+          type="email"
+          placeholder="hilary@gmail.com"
+          autofocus
+          maxlength="25"
+        />
+        <input
+          class="input"
+          type="password"
+          name=""
+          id=""
+          placeholder="Password"
+          minlength="8"
+          maxlength="15"
+        />
+        <div class="form__button-section">
+          <button class="btn btn--primary" type="reset">Clear</button>
+          <button class="btn btn--primary btn__login" type="submit">
+            Login
+          </button>
+        </div>
+        <p class="form_sign-up">
+          Not signed in: <a href="/components/sign_up.html">Register/sign up</a>
+        </p>
+      </div>
+    </form>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
